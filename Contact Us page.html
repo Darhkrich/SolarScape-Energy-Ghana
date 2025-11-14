@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SolarScape Energy Ghana limited</title>
+    <meta name="description" content="Contact SolarScape Energy Ghana Ltd for professional solar installation services. Get your free consultation today!">
+    
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="moblie.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="contact page.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+  
+ <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo - Different sizes for different devices -->
+             <div class="nav-logo">
+                <img src="images/logo.jpg" alt="SolarScape Energy" class="logo-desktop" style="height: 80px;">
+                <img src="images/logo.jpg" alt="SolarScape Energy" class="logo-mobile" style="height: 60px;">
+                <img src="images/logo.jpg" alt="SolarScape Energy" class="logo-tablet" style="height: 70px;">
+
+                 <img src="images/logo2.jpg" alt="SolarScape Energy" class="logo-desktop" style="width: 230px;">
+                <img src="images/logo2.jpg" alt="SolarScape Energy" class="logo-mobile" style="width: 200px;">
+                <img src="images/logo2.jpg" alt="SolarScape Energy" class="logo-tablet" style="width: 200px;">
+            </div>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                 <li class="nav-item"><a href="service page.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="About page.html" class="nav-link">About</a></li>
+               
+                <li class="nav-item"><a href="Gallery page.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="Contact Us page.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Desktop Contact -->
+            <div class="nav-contact">
+                <a href="tel:+233-59-235-0779" class="phone-link">(+233) (0) 59-235-0779</a>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h1 style="margin-top: 20px;">Contact Us</h1>
+            <p>Get your free solar consultation today! We're here to answer all your questions.</p>
+            
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    
+                    <div class="contact-item">
+                        <h3>📞 Phone</h3>
+                        <a href="tel:+233-59-235-0779">(+233) (0) 59-235-0779</a>
+                        <p>Call us for immediate assistance</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <a href="mailto:info@solarscapeghana.com">info@solarscapeghana.com</a>
+                        <p>We'll respond within  30 minutes</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📍 Office</h3>
+                        <p>Light Industrial Area, Community 9<br>Opposite Everpure Ghana Ltd, Tema-Ghana</p>
+                        <p>Free on-site consultations available</p>
+                    </div>
+
+                    <!-- Business Hours -->
+                    <div class="business-hours">
+                        <h3>Business Hours</h3>
+                        <ul class="hours-list">
+                            <li class="hours-item">
+                                <span class="hours-day">Monday - Friday</span>
+                                <span class="hours-time">8:00 AM - 6:00 PM</span>
+                            </li>
+                            <li class="hours-item">
+                                <span class="hours-day">Saturday</span>
+                                <span class="hours-time">9:00 AM - 4:00 PM</span>
+                            </li>
+                            <li class="hours-item">
+                                <span class="hours-day">Sunday</span>
+                                <span class="hours-time">12:00 AM - 3:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                   
+                </div>
+                
+
+       <form class="contact-form" name="contact" method="POST" netlify>
+    <input type="hidden" name="form-name" value="contact">
+    
+    <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+    </div>
+    
+    <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="(+xxx) (0) 123-4567">
+    </div>
+
+    <div class="form-group">
+        <label for="service">Service Interested In</label>
+        <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option value="residential">Residential Solar</option>
+            <option value="commercial">Commercial Solar</option>
+            <option value="battery">Battery Storage</option>
+            <option value="maintenance">Maintenance</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">How Can We Help You? *</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your solar needs..."></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Send Message</button>
+</form>         
+
+              <!---<form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(+233)(0) 123-4567">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="residential">Residential Solar</option>
+                            <option value="commercial">Commercial Solar</option>
+                            <option value="battery">Battery Storage</option>
+                            <option value="maintenance">Maintenance</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">How Can We Help You? *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your solar needs, property details, or any questions you have..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/buttom logo.jpg" alt="SolarScape Energy Ghana limited" width="120" height="40">
+                    <p>Professional solar installation services you can trust.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 (+233) (0) 59-235-0779</p>
+                    <p>📧 info@solarscapeghana.com</p>
+                    <p>📍Light Industrial Area, Community 9, Opposite Everpure Ghana Ltd, Tema-Ghana
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="About page.html page.html">About Us</a>
+                    <a href="service page.html">Services</a>
+                    <a href="Contact Us page.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+     <script src="mobile.js"></script>
+</body>
+</html>
