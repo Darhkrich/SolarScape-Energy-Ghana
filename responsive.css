@@ -129,7 +129,7 @@
     }
     
     .nav-menu::after {
-        content: 'Call Us: (+233) 123-4567';
+        content: 'Call Us: (+233) (0) 59-235-0779';
         color: #f97316;
         font-weight: 600;
         font-size: 1rem;
@@ -913,4 +913,5 @@
     .trust-item h3 {
         font-size: 1.2rem !important;
     }
+
 }
