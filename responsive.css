@@ -118,22 +118,6 @@
         transform: rotate(45deg) translate(-5px, -6px);
     }
     
-    /* Add mobile contact to menu */
-    .nav-menu::after {
-        content: '';
-        display: block;
-        padding: 20px;
-        text-align: center;
-        border-top: 1px solid #f0f0f0;
-        margin-top: 20px;
-    }
-    
-    .nav-menu::after {
-        content: 'Call Us: (+233) (0) 59-235-0779';
-        color: #f97316;
-        font-weight: 600;
-        font-size: 1rem;
-    }
 
 
     .hero {
@@ -915,3 +899,4 @@
     }
 
 }
+
